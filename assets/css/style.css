@@ -529,7 +529,15 @@ h1{
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 50px 0;
+  padding: 50px;
+}
+
+section#services {
+  padding: 80px;
+}
+
+section#faq {
+  padding: 15px;
 }
 
 .section-bg, .services .icon-box {
