@@ -11,7 +11,7 @@
 body {
   /* font-family: "Open Sans", sans-serif; */
   color: #444444;
-  font-family: Gilroy,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji !important;
+  font-family: Gilroy !important;
 }
 
 a {
@@ -27,6 +27,49 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.listaItems{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.listaItems div{
+  padding: 90px 30px 10px 30px;
+}
+.listaItems div h4{
+  padding-top: 20px;
+}
+.iconito{
+  font-size: 3.5em;
+  padding: 20px;
+}
+.listaItems div p{
+  font-size: larger;
+}
+
+
+
+.card{
+  background-color: rgba(128, 128, 128, 0.137);
+}
+.card-body{
+  color: black;
+  font-size: larger;
+  font-family: 'Poppins';
+}
+.botonsuelo{
+  color: black;
+  font-size: larger;
+  font-family: "Raleway", sans-serif;
+
+
+}
+.botonsuelo:hover{
+  text-decoration-line: none;
+  color: #e24d55;
+}
+.botonsuelo:focus{
+  outline: 0 !important;
+  box-shadow: none;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1253,7 +1296,6 @@ section#faq {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
@@ -1296,7 +1338,6 @@ section#faq {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 
 .contact .php-email-form .form-group {
