@@ -169,7 +169,7 @@ a:hover {
   font-weight: 500;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover, .nav-menu li:hover > a {
   color: #d9232d;
 }
 
